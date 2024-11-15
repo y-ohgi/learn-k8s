@@ -1,0 +1,8 @@
+apiVersion: kro.run/v1alpha1
+kind: Application
+metadata:
+  name: httpd-application
+spec:
+  name: httpd-app
+  image: httpd:2.4.57-alpine
+  replicas: 3
